@@ -14,3 +14,11 @@ end
 %C(1)=umax, C(2)=yxs, C(3) = flow rate (f), C(4) = a, C(5) = b,
 %C(6)= kd, C(7) = ks, C(8) = concentration of substrate added (c)
 %x(1)=X, x(2)=S, x(3) = P, x(4) = V
+
+%dxdt(1) = bacterial growth equation
+%dxdt(2) = substrate utilization equation
+%dxdt(3) = product formation equation
+%dxdt(4) = volume equation
+
+%The if statement prevents the substrate concentration from being
+%negative

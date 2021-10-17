@@ -19,3 +19,15 @@ end
 %C(1)=umax, C(2)=yxs, C(3) = replacement rate (r), C(4) = a, C(5) = b,
 %C(6)= kd, C(7) = ks
 %x(1)=X, x(2)=S, x(3) = P
+
+%dxdt(1) = bacterial growth equation
+%dxdt(2) = substrate utilization equation
+%dxdt(3) = product formation equation
+
+%The first if statement prevents the substrate concentration from being
+%negative
+%The second if statement prevents the change in substrate concentration to
+%increase in a batch model
+%The third if statement prevents the change in production concentration to
+%decrease in a batch model
+
